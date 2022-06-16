@@ -1,0 +1,122 @@
+@media (max-width: 992px) {
+   :root{
+      --font-family: 'Poppins';
+      --font-weight: 600;
+      --padding: 16px 66px;
+      --font-size: 12px;
+      --font-size-title: 15px;
+      --font-size-main: 16px;
+      --border-radius: 8px;
+      --padding-block: 66px;
+      --padding-text: 16px;
+      --font-size-in: 30px;
+   }
+   .main__title{
+      min-height: 650px;
+   }
+   .title{
+      font-size: 60px;
+   }
+   .text{
+      font-size: var(--font-size-title);
+   }
+   .button{
+      padding-left: 45px;
+   }
+   .dark__button{
+      height: 45px;
+      width: 130px;
+      font-size: var(--font-size-title);
+   }
+   .light__button{
+      height: 45px;
+      width: 130px;
+      font-size: var(--font-size-title);
+   }
+   .navigation__point:hover{
+      font-size: 14px;
+   }
+   .page__second{
+      min-height: 560px;
+   }
+   .second__title{
+      font-size: var(--font-size-in);
+      padding-left: var(--padding-block);
+   }
+   .block{
+      width: 240px;
+      height: 250px;
+   }
+   .block__author{
+      padding-top: 35px;
+   }
+   .page__third{
+      min-height: 470px;
+      padding-top: 100px;
+      padding-left: var(--padding-block);
+   }
+   .page__third-title{
+      font-size: var(--font-size-in);
+   }
+   .page__fourth{
+      min-height: 650px;
+   }
+   .fourth__title{
+      font-size: var(--font-size-in);
+   }
+   .fourth-block__content-block {
+      width: 240px;
+      height: 250px;
+   }
+   .block__text{
+      font-size: var(--font-size-title);
+   }
+   .page__fifth{
+      min-height: 760px;
+   }
+   .page__form{
+      width: 400px;
+      height: 560px;
+   }
+   h3{
+      font-size: 26px;
+   }
+   .page__form p {
+      font-size: 16px;
+   }
+   .page__form input {
+      height: 22px;
+      width: 240px;
+   }
+   .page__form textarea {
+      width: 300px;
+      height: 250px;
+   }
+   .page__form button {
+      margin-top: 25px;
+      font-size: 15px;
+      height: 40px;
+      width: 140px;
+   }
+   .page__follow{
+      margin: 20px 0 20px 38px;
+      width: 300px;
+      height: 260px;
+   }
+   .third__image{
+      padding-top: 100px;
+   }
+   .page__follow div {
+      width: 220px;
+      height: 210px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+   }
+   .footer{
+      min-height: 160px;
+   }
+   .content__title{
+      font-size: 18px;
+   }
+}
